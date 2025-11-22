@@ -21,6 +21,8 @@ public class Plugin {
 
     private String description;
 
+    private String type;
+
     private String icon; // URL for app to display
 
     private boolean enabled = true;

@@ -9,4 +9,6 @@ public class PluginResponse {
     private String icon;
     private boolean enabled;
 
+    private String type;
+
 }

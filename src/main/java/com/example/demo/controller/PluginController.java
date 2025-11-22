@@ -79,6 +79,7 @@ public class PluginController {
             dto.setDescription(plugin.getDescription());
             dto.setIcon(plugin.getIcon());
             dto.setEnabled(plugin.isEnabled());
+            dto.setType(plugin.getType());
             return dto;
         }).toList();
 
